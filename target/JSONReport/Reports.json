@@ -1,0 +1,70 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2021-08-03T03:28:39.974Z",
+        "line": 3,
+        "name": "Check login is successful with valid credencitals",
+        "description": "",
+        "id": "feature-to-test-login-functionality;check-login-is-successful-with-valid-credencitals",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 3998600,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "user is on login page",
+            "match": {
+              "location": "StepsDefinitions.LoginSteps.user_is_on_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 998800,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user enter username and password",
+            "match": {
+              "location": "StepsDefinitions.LoginSteps.user_enter_username_and_password()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "click on login button",
+            "match": {
+              "location": "StepsDefinitions.LoginSteps.click_on_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user is navigated to homepage",
+            "match": {
+              "location": "StepsDefinitions.LoginSteps.user_is_navigated_to_homepage()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "feature to test login functionality",
+    "description": "",
+    "id": "feature-to-test-login-functionality",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/Features/Login.feature",
+    "tags": []
+  }
+]
