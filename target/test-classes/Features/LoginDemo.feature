@@ -10,3 +10,4 @@ Feature: Test Login functionality
     Examples: 
       | username | password |
       | Raghav   |    12345 |
+      |thillai|arasu|
